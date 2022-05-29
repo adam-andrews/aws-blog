@@ -6,7 +6,16 @@
     "gqlSchemaPath": "/Users/adam/Computing Projects/aws-blog/amplify/backend/api/awsblog/schema.graphql",
     "defaultAuthType": {
       "mode": "API_KEY",
-      "expirationTime": 7
-    }
+      "expirationTime": 14,
+      "apiKeyExpirationDate": "2022-06-12T18:46:55.073Z",
+      "keyDescription": "public api"
+    },
+    "conflictResolution": {},
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authawsblog84730549"
+      }
+    ]
   }
 }
